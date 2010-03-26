@@ -1,0 +1,121 @@
+body{
+   font-family: "Helvetica Neue";
+   background : #444444;
+}
+
+img{
+    border: none;
+}
+
+.tile{
+    width: 8px;
+    height: 8px;
+}
+
+#mosaicTitle{
+    position : fixed;
+    background-color : black;
+    border-bottom : 2px solid white;
+    font-size : 1.5em;
+    width : 100%;
+    color : white;
+    padding : 10px;
+    padding-left : 40px;
+    top     : 0px;
+    left     : 0px;
+    z-index : 1;
+}
+
+#mosaicM, #mosaicS, #mosaicI{
+    color : #EEAAAA;
+    font-family: Georgia;
+}
+
+#mosaicO, #mosaicA, #mosaicC{
+    color : #AAAAEE;
+    font-family: "Verdana";
+    font-size  : 1.3em;
+}
+
+#mosaicC{
+    color : #8DAC26;
+}
+
+#leftPanel, #centerPanel{
+    top : 70px;
+}
+
+#leftPanel{
+    position: fixed;
+    z-index:1;
+    background : black;
+    color : white;
+    padding-left : 5px;
+    padding-right : 5px;
+    border : 2px solid white;
+    font-family: "Lucida Grande", Arial;
+}
+
+#zoomPanel{
+    padding           : 5px;
+    padding-top       : 10px;
+    padding-bottom    : 15px;
+}
+
+#zoom{
+    font-size : 0.7em;
+    padding-bottom : 5px;
+}
+
+#slider{
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+#statistics img {
+    width : 36px;
+    height : 36px;
+    vertical-align : middle;
+    padding-right : 2px;
+}
+
+.listTitle{
+    font-size : 1.5em;
+    background : #8DAC26;
+    padding-left : 5px;
+    padding-bottom : 2px;
+    color : white;
+}
+
+#statistics ul {
+    list-style-type : none;
+    padding-left : 5px;
+    margin-top   : 5px;
+    margin-bottom : 2px;
+}
+
+.timesUsed{
+    font-size : 0.8em;
+}
+
+#statistics li{
+    font-size : 0.8em;
+    padding-bottom : 5px;
+}
+
+#centerPanel{
+    position : absolute;
+    left: 285px;
+}
+
+.container{
+position: inherit;
+}
+
+.thumbnail{
+opacity: 0.30;
+}
+
+#zoom{
+    visibility : hidden;
+}
